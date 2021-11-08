@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/index.css">
+    <script src="/source/script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="loginBlock">
+        <h3 id='log'>Login</h3>
+        <form action="/login" method="post" onsubmit="return validateForm()">
+            <label for="username" id='labelUser'>Username:</label>
+            <input type="email" name="username" id="valueUser" placeholder="Enter Email ID." required>
+            <br/>
+            <label for="password" id="labelpass">Enter Password:</label>
+            <input type="password" name="password" id="valuepass" placeholder="Enter password" required>
+            <br/>
+            <input type="submit" value="Login">
+        </form>
+        <div>
+            <p>Does not have account. Create <a href="source/register.html">here.</a></p>
+        </div>
+    </div>
+</body>
+</html>

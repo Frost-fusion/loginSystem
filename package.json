@@ -1,0 +1,22 @@
+{
+  "name": "loginsystem",
+  "version": "1.0.0",
+  "description": "complete Sample login ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frost-fusion/loginSystem.git"
+  },
+  "author": "Prashis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frost-fusion/loginSystem/issues"
+  },
+  "homepage": "https://github.com/Frost-fusion/loginSystem#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="source/script.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    <p>Registration</p>
+    <div>
+        <form action="registered" method="post" onsubmit="return validateRegister()">
+            <label for="username" id='labelUser'>Username:</label>
+            <input type="email" name="username" id="valueUser" placeholder="Enter Email ID." required>
+            <br/>
+            <label for="password" id="labelpass">Password:</label>
+            <input type="password" name="password" id="valuepass" placeholder="Enter password" required>
+            <br/>
+            <label for="passwordRepeat" id="labelpassRepeat"> ReEnter Password:</label>
+            <input type="password" name="passwordRepeat" id="valuepassRepeat" placeholder="ReEnter password" required>   
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
